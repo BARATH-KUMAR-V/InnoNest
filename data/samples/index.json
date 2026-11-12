@@ -1,0 +1,127 @@
+[
+  {
+    "scenario": "clean_home_loan",
+    "title": "Clean salaried home loan",
+    "expected_outcome": "APPROVED",
+    "files": [
+      "pan_1.pdf",
+      "address_proof_1.pdf",
+      "salary_slip_1.pdf",
+      "salary_slip_scanned.png",
+      "bank_statement_1.pdf",
+      "form16_1.pdf",
+      "sale_agreement_1.pdf",
+      "encumbrance_certificate_1.pdf",
+      "valuation_report_1.pdf"
+    ]
+  },
+  {
+    "scenario": "high_foir",
+    "title": "Stretched repayment capacity",
+    "expected_outcome": "REJECTED",
+    "files": [
+      "pan_1.pdf",
+      "address_proof_1.pdf",
+      "salary_slip_1.pdf",
+      "bank_statement_1.pdf",
+      "form16_1.pdf",
+      "sale_agreement_1.pdf",
+      "encumbrance_certificate_1.pdf",
+      "valuation_report_1.pdf"
+    ]
+  },
+  {
+    "scenario": "tampered_slip",
+    "title": "Salary slip edited after issue",
+    "expected_outcome": "REFERRED",
+    "files": [
+      "pan_1.pdf",
+      "address_proof_1.pdf",
+      "salary_slip_1.pdf",
+      "bank_statement_1.pdf",
+      "form16_1.pdf",
+      "sale_agreement_1.pdf",
+      "encumbrance_certificate_1.pdf",
+      "valuation_report_1.pdf"
+    ]
+  },
+  {
+    "scenario": "aml_potential_match",
+    "title": "Potential sanctions or PEP match",
+    "expected_outcome": "REFERRED",
+    "files": [
+      "pan_1.pdf",
+      "address_proof_1.pdf",
+      "salary_slip_1.pdf",
+      "bank_statement_1.pdf",
+      "form16_1.pdf",
+      "sale_agreement_1.pdf",
+      "encumbrance_certificate_1.pdf",
+      "valuation_report_1.pdf"
+    ]
+  },
+  {
+    "scenario": "lap_encumbered",
+    "title": "LAP on a mortgaged property",
+    "expected_outcome": "REFERRED",
+    "files": [
+      "pan_1.pdf",
+      "address_proof_1.pdf",
+      "itr_1.pdf",
+      "bank_statement_1.pdf",
+      "business_financials_1.pdf",
+      "gst_return_1.pdf",
+      "sale_deed_1.pdf",
+      "encumbrance_certificate_1.pdf",
+      "valuation_report_1.pdf",
+      "legal_report_1.pdf",
+      "technical_report_1.pdf"
+    ]
+  },
+  {
+    "scenario": "weak_credit",
+    "title": "Weak credit history",
+    "expected_outcome": "REJECTED",
+    "files": [
+      "pan_1.pdf",
+      "address_proof_1.pdf",
+      "salary_slip_1.pdf",
+      "bank_statement_1.pdf",
+      "form16_1.pdf",
+      "sale_agreement_1.pdf",
+      "encumbrance_certificate_1.pdf",
+      "valuation_report_1.pdf"
+    ]
+  },
+  {
+    "scenario": "clean_lap",
+    "title": "Clean LAP for a business owner",
+    "expected_outcome": "APPROVED",
+    "files": [
+      "pan_1.pdf",
+      "address_proof_1.pdf",
+      "itr_1.pdf",
+      "bank_statement_1.pdf",
+      "business_financials_1.pdf",
+      "gst_return_1.pdf",
+      "sale_deed_1.pdf",
+      "encumbrance_certificate_1.pdf",
+      "valuation_report_1.pdf",
+      "legal_report_1.pdf",
+      "technical_report_1.pdf"
+    ]
+  },
+  {
+    "scenario": "incomplete_application",
+    "title": "Missing salary slip and bank statement",
+    "expected_outcome": "ACTION_REQUIRED",
+    "files": [
+      "pan_1.pdf",
+      "address_proof_1.pdf",
+      "form16_1.pdf",
+      "sale_agreement_1.pdf",
+      "encumbrance_certificate_1.pdf",
+      "valuation_report_1.pdf"
+    ]
+  }
+]

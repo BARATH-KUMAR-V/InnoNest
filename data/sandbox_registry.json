@@ -1,0 +1,10 @@
+{
+  "ASHPR1234A": {"name": "Priya Raman", "dob": "1990-03-14", "bureau": {"score": 782, "max_dpd_12m": 0, "enquiries_6m": 1, "utilization": 0.22}, "bank": {"income_factor": 1.0}},
+  "BMNKS2345B": {"name": "Karthik Subramanian", "dob": "1988-07-22", "bureau": {"score": 744, "max_dpd_12m": 0, "enquiries_6m": 2, "utilization": 0.41}, "bank": {"income_factor": 1.0}},
+  "CQRTV3456C": {"name": "Meera Nair", "dob": "1988-11-05", "bureau": {"score": 731, "max_dpd_12m": 0, "enquiries_6m": 1, "utilization": 0.3}, "bank": {"income_factor": 0.72}},
+  "DRNMH4567D": {"name": "Rohan Mehra", "dob": "1971-04-09", "bureau": {"score": 768, "max_dpd_12m": 0, "enquiries_6m": 0, "utilization": 0.18}, "bank": {"income_factor": 1.0}},
+  "EVLSB5678E": {"name": "Suresh Babu Lakshmanan", "dob": "1979-01-30", "bureau": {"score": 758, "max_dpd_12m": 0, "enquiries_6m": 1, "utilization": 0.27}, "bank": {"income_factor": 1.0, "income_cv": 0.12}, "cersai_charge": {"holder": "Sample Housing Finance Ltd (fictional)", "date": "2021-08-12", "amount": 2400000}},
+  "FTGKA6789F": {"name": "Anita Gopalan", "dob": "1993-09-18", "bureau": {"score": 584, "max_dpd_12m": 60, "enquiries_6m": 6, "utilization": 0.86}, "bank": {"income_factor": 1.0, "bounces": 2}},
+  "GHPQW7890G": {"name": "Vikram Desai", "dob": "1984-05-27", "bureau": {"score": 801, "max_dpd_12m": 0, "enquiries_6m": 0, "utilization": 0.12}, "bank": {"income_factor": 1.0}},
+  "HJRDS8901H": {"name": "Lakshmi Venkatesan", "dob": "1991-12-02", "bureau": {"score": 712, "max_dpd_12m": 0, "enquiries_6m": 2, "utilization": 0.35}, "bank": {"income_factor": 1.0}, "pan_registry_name": "Lakshmi Venkatesh"}
+}
